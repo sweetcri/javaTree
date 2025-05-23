@@ -29,7 +29,7 @@ public class Tree<T extends Comparable<T>> {
     public String toString() {
         StringBuffer sb = new StringBuffer();
         visita( root, sb );
-        return sb;
+        return sb.toString();
     }
 
     
